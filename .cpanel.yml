@@ -2,3 +2,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/wipd0555/dev.educaus.net/
     - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp styles.css $DEPLOYPATH
