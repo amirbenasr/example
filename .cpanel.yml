@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/dev.educaus.net/
+    - /bin/cp index.html $DEPLOYPATH
